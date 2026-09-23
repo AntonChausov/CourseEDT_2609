@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4254b591-84e9-4bb9-a70f-fa7175690cb8">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4254b591-84e9-4bb9-a70f-fa7175690cb8">
   <producedTypes>
     <objectType typeId="ab9a704a-79e7-4a73-a209-a4be16a4f2da" valueTypeId="eb1c9704-3632-4604-8604-8cd8677659dd"/>
     <refType typeId="4f332681-06ad-4533-ab25-289d31f07ed1" valueTypeId="8f47c052-3e3e-4b35-af09-34be7f0fe3f1"/>
@@ -25,4 +25,19 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="74a06046-04c9-4a3d-b6cd-49e3f13978c4">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
