@@ -46,11 +46,13 @@
   <catalogs>Catalog.Справочник2</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Справочник3</catalogs>
+  <catalogs>Catalog.Справочник4</catalogs>
   <documents>Document.Документ1</documents>
   <documents>Document.Документ2</documents>
   <documents>Document.ПоступлениеТовара</documents>
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.Документ3</documents>
+  <documents>Document.Документ4</documents>
   <enums>Enum.ТипНоменклатуры</enums>
   <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
 </mdclass:Configuration>
