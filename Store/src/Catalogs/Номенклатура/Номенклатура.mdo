@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6914ec10-7c3e-4fc6-8600-d57dac03a328">
+  <producedTypes>
+    <objectType typeId="47bbd76f-7134-4ff3-9d78-6e3eb54812e7" valueTypeId="3cae7686-776d-4a25-bff9-bb586c436db6"/>
+    <refType typeId="d24821c2-9ecd-4843-a55f-95c674e3bb5d" valueTypeId="1a13542b-ae5f-4ca5-a5ac-0e50ec188728"/>
+    <selectionType typeId="20931948-a655-438a-9e75-9f511621ec86" valueTypeId="796b86e1-28ac-4af8-8f94-166010ffb902"/>
+    <listType typeId="a46cf059-cb6a-4fbe-a9dd-02e14f8a969c" valueTypeId="796169d2-9210-48d5-935b-1df94671fc39"/>
+    <managerType typeId="c91fcd8a-d57c-4653-a2e1-ffbc8fd4450d" valueTypeId="34008e2b-f81d-4e30-8931-9d1cce88e48e"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ba470b60-1f94-424c-b5cf-1b948ee04074">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
