@@ -56,6 +56,7 @@
   <documents>Document.Документ4</documents>
   <documents>Document.ПриемНаРаботу</documents>
   <documents>Document.Увольнение</documents>
+  <documents>Document.КадровыйПеревод</documents>
   <enums>Enum.ТипНоменклатуры</enums>
   <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
 </mdclass:Configuration>
