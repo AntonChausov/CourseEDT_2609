@@ -50,6 +50,7 @@
   <documents>Document.Документ2</documents>
   <documents>Document.ПоступлениеТовара</documents>
   <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.Документ3</documents>
   <enums>Enum.ТипНоменклатуры</enums>
   <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
 </mdclass:Configuration>
