@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cd8fcc3-61a7-40a3-8d5d-733d57fdde78">
+  <producedTypes>
+    <objectType typeId="8cdc766a-cecf-4c71-83e3-c3869773f6aa" valueTypeId="06b5f9d0-630f-47d9-9887-727015640052"/>
+    <refType typeId="ada1f070-73cb-4e12-bc74-23120820c8c1" valueTypeId="daf214d9-7ec8-4b46-a14d-88549c5187a3"/>
+    <selectionType typeId="7b5fd265-36b4-4012-ad58-77861aff8a00" valueTypeId="e642cb7a-ca0e-4bea-80bc-e144d1326f80"/>
+    <listType typeId="cb3957bf-ffe9-444d-8344-169fb19ba3f8" valueTypeId="0aa356b3-cb5e-402c-bca7-0dda366a9eb0"/>
+    <managerType typeId="52f4b325-725a-409d-b1c2-84eff3d18048" valueTypeId="518cf1c2-2e8a-4b5b-91d5-a9c439c8c1b6"/>
+  </producedTypes>
+  <name>Ремонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ремонт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Ремонт.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
